@@ -33,21 +33,21 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                         &kp INS  &kp HOME  &trans        &kp END    &trans  &kp KP_NUMLOCK
-&trans  &trans  &trans  &trans  &trans  &trans                         &trans   &kp LEFT  &kp UP_ARROW  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                         &trans   &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &kp PG_UP
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp RA(DEL)  &trans   &trans    &trans        &trans     &trans  &kp PG_DN
-                        &trans  &trans  &trans  &trans    &trans       &trans   &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                     &kp INS  &kp HOME  &trans        &kp END    &trans  &kp KP_NUMLOCK
+&trans  &trans  &trans  &trans  &trans  &trans                     &trans   &kp LEFT  &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                     &trans   &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &kp PG_UP
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp DEL  &trans   &trans    &trans        &trans     &trans  &kp PG_DN
+                        &trans  &trans  &trans  &trans    &trans   &trans   &trans    &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&trans        &trans  &kp DE_LESS_THAN  &kp RA(DE_LESS_THAN)  &kp LS(DE_LESS_THAN)  &kp LS(DE_SZ)                             &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans  &trans            &trans                &trans                &trans                                    &trans  &trans  &trans  &trans  &trans  &trans
-&kp CAPSLOCK  &trans  &trans            &trans                &kp LG(LS(DE_S))      &kp PRINTSCREEN                           &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans  &trans            &trans                &trans                &kp PAUSE_BREAK  &kp LS(DE_N7)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                        &trans                &trans                &trans           &trans           &trans  &trans  &trans  &trans
+&kp LS(DE_N7)  &kp RA(DE_SZ)  &kp DE_LESS_THAN  &kp RA(DE_LESS_THAN)  &kp LS(DE_LESS_THAN)  &kp LS(DE_SZ)                             &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans         &trans            &trans                &trans                &trans                                    &trans  &trans  &trans  &trans  &trans  &trans
+&kp CAPSLOCK   &trans         &trans            &trans                &kp LG(LS(DE_S))      &kp PRINTSCREEN                           &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans         &trans            &trans                &trans                &kp PAUSE_BREAK  &kp LS(DE_N7)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                                &trans                &trans                &trans           &trans           &trans  &trans  &trans  &trans
             >;
         };
 
