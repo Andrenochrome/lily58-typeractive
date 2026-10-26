@@ -23,42 +23,52 @@
 
             label = "Base";
             bindings = <
-&kp ESC           &mt DE_EXCLAMATION DE_N1  &mt DE_DOUBLE_QUOTES DE_N2  &mt DE_SECT DE_N3  &mt DE_DOLLAR DE_N4  &mt DE_PERCENT DE_N5                                                     &mt DE_AMPERSAND DE_N6  &mt DE_LEFT_BRACE DE_N7  &mt DE_LEFT_PARENTHESIS DE_N8  &mt DE_RIGHT_PARENTHESIS DE_N9  &mt DE_RIGHT_BRACE DE_N0    &kp BACKSPACE
-&mt DE_TILDE TAB  &mt DE_AT_SIGN DE_Q       &kp DE_D                    &kp DE_R           &kp DE_W             &kp DE_B                                                                 &kp DE_J                &kp DE_F                 &mt DE_LEFT_BRACKET DE_U       &mt DE_RIGHT_BRACKET DE_P       &mt DE_QUESTION DE_SLASH    &mt DE_PIPE DE_BACKSLASH
-&kp LEFT_SHIFT    &kp DE_A                  &kp DE_S                    &kp DE_H           &kp DE_T             &kp DE_G                                                                 &kp DE_Y                &kp DE_N                 &mt DE_EURO DE_E               &mt DE_ASTERISK DE_O            &mt DE_PLUS DE_I            &mt DE_EQUAL DE_HASH
-&kp LCTRL         &kp DE_Z                  &kp DE_X                    &kp DE_M           &kp DE_C             &kp DE_V              &mt DE_SINGLE_QUOTE DE_CARET    &mt INSERT DELETE  &kp DE_K                &kp DE_L                 &mt DE_SEMICOLON DE_COMMA      &mt DE_COLON DE_PERIOD          &mt DE_UNDERSCORE DE_MINUS  &kp RSHFT
-                                                                        &kp LALT           &kp LEFT_GUI         &mo 1                 &kp DE_SPACE                    &kp RET            &mo 2                   &none                    &to 3
+&kp ESC           &mt DE_EXCLAMATION DE_N1  &mt DE_DOUBLE_QUOTES DE_N2  &mt DE_SECT DE_N3  &mt DE_DOLLAR DE_N4  &mt DE_PERCENT DE_N5                                            &mt DE_AMPERSAND DE_N6  &mt DE_LEFT_BRACE DE_N7  &mt DE_LEFT_PARENTHESIS DE_N8  &mt DE_RIGHT_PARENTHESIS DE_N9  &mt DE_RIGHT_BRACE DE_N0    &kp BACKSPACE
+&mt DE_TILDE TAB  &mt LS(DE_Q) DE_Q         &mt LS(DE_D) DE_D           &mt LS(DE_R) DE_R  &mt LS(DE_W) DE_W    &mt LS(DE_B) DE_B                                               &mt LS(DE_J) DE_J       &mt LS(DE_F) DE_F        &mt LS(DE_U) DE_U              &mt LS(DE_P) DE_P               &mt DE_QUESTION DE_SLASH    &mt DE_PIPE DE_BACKSLASH
+&kp CARET         &mt LS(DE_A) DE_A         &mt LS(DE_S) DE_S           &mt LS(DE_H) DE_H  &mt LS(DE_T) DE_T    &mt LS(DE_G) DE_G                                               &mt LS(DE_Y) DE_Y       &mt LS(DE_N) DE_N        &mt LS(DE_E) DE_E              &mt LS(DE_O) DE_O               &mt LS(DE_I) DE_I           &mt DE_HASH DE_EQUAL
+&kp LEFT_CONTROL  &mt LS(DE_Z) DE_Z         &mt LS(DE_X) DE_X           &mt LS(DE_M) DE_M  &mt LS(DE_C) DE_C    &mt LS(DE_V) DE_V     &kp DE_SINGLE_QUOTE    &mt INSERT DELETE  &mt LS(DE_K) DE_K       &mt LS(DE_L) DE_L        &mt DE_SEMICOLON DE_COMMA      &mt DE_COLON DE_PERIOD          &mt DE_UNDERSCORE DE_MINUS  &mt DE_ASTERISK DE_PLUS
+                                                                        &kp LALT           &kp LEFT_GUI         &mo 1                 &kp DE_SPACE           &kp RET            &mo 2                   &mo 3                    &to 4
             >;
         };
 
         layer_1 {
             bindings = <
-&kp F1        &kp F2  &kp F3  &kp F4            &kp F5     &kp F6                             &trans  &trans  &trans  &trans  &trans  &trans
-&kp F7        &kp F8  &kp F9  &kp F10           &kp F11    &kp F12                            &trans  &trans  &trans  &trans  &trans  &trans
-&kt CAPSLOCK  &trans  &trans  &trans            &trans     &trans                             &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans  &trans  &kp LS(LG(DE_S))  &kp PSCRN  &kp PAUSE_BREAK  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                              &trans            &trans     &trans           &trans    &trans  &trans  &trans  &trans
+&kp F1        &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                                      &trans  &trans  &trans  &trans  &trans  &trans
+&kp F7        &kp F8  &kp F9  &kp F10  &kp F11  &kp F12                                     &trans  &trans  &trans  &trans  &trans  &trans
+&kt CAPSLOCK  &trans  &trans  &trans   &trans   &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans  &trans  &trans   &trans   &kp PRINTSCREEN  &kp PAUSE_BREAK    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans   &trans   &trans           &trans             &trans  &trans  &trans  &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans                         &trans     &kp HOME       &trans            &kp END    &trans            &kp PG_UP
-&trans        &trans        &trans        &trans        &trans        &trans                         &trans     &kp LEFT       &kp UP_ARROW      &kp RIGHT  &trans            &kp PG_DN
-&trans        &trans        &trans        &trans        &trans        &trans                         &trans     &kp LEFT       &kp DOWN          &kp RIGHT  &trans            &trans
-&trans        &trans        &trans        &trans        &trans        &trans  &bt BT_CLR    &kp INS  &kp SLASH  &kp BACKSLASH  &kp DE_LESS_THAN  &kp PIPE   &kp GREATER_THAN  &kp QUESTION
-                                          &trans        &trans        &trans  &trans        &trans   &trans     &trans         &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans                        &trans    &kp DE_LEFT_BRACKET  &kp DE_LESS_THAN  &kp DE_GREATER_THAN  &kp DE_RIGHT_BRACKET  &trans
+&trans        &trans        &trans        &trans        &trans        &trans                        &kp HOME  &kp LEFT             &kp UP_ARROW      &kp RIGHT            &kp END               &trans
+&trans        &trans        &trans        &trans        &trans        &trans                        &kp HOME  &kp LEFT             &kp DOWN          &kp RIGHT            &kp END               &kp PAGE_UP
+&trans        &trans        &trans        &trans        &trans        &trans  &bt BT_CLR    &trans  &trans    &kp DE_AT_SIGN       &trans            &kp DE_EURO          &trans                &kp PAGE_DOWN
+                                          &trans        &trans        &trans  &trans        &trans  &trans    &trans               &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp LS(LG(DE_S))  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans            &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans            &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans            &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans            &trans  &trans
             >;
         };
 
         layer_3 {
             label = "Gaming";
             bindings = <
-&kp ESCAPE      &kp DE_N1  &kp DE_N2  &kp DE_N3     &kp DE_N4     &kp DE_N5                              &kp DE_N6  &kp DE_N7  &kp DE_N8     &kp DE_N9      &kp DE_N0     &kp BACKSPACE
-&kp TAB         &kp DE_Q   &kp DE_W   &kp DE_E      &kp DE_R      &kp DE_T                               &kp DE_Z   &kp DE_U   &kp DE_I      &kp DE_O       &kp DE_P      &kp DE_HASH
-&kp LEFT_SHIFT  &kp DE_A   &kp DE_S   &kp DE_D      &kp DE_F      &kp DE_G                               &kp DE_H   &kp DE_J   &kp DE_K      &kp DE_L       &kp SLASH     &kp BACKSLASH
-&kp DE_CARET    &kp DE_Y   &kp DE_X   &kp DE_C      &kp DE_V      &kp DE_B   &kp DE_CARET    &kp DELETE  &kp DE_N   &kp DE_M   &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS  &kp RIGHT_SHIFT
-                                      &kp LEFT_ALT  &kp LEFT_GUI  &mo 1      &kp DE_SPACE    &kp ENTER   &mo 2      &none      &to 0
+&kp ESCAPE      &kp DE_N1  &kp DE_N2  &kp DE_N3  &kp DE_N4     &kp DE_N5                                 &kp DE_N6      &kp DE_N7  &kp DE_N8     &kp DE_N9      &kp DE_N0     &kp BACKSPACE
+&kp TAB         &kp DE_Q   &kp DE_W   &kp DE_E   &kp DE_R      &kp DE_T                                  &kp DE_Z       &kp DE_U   &kp DE_I      &kp DE_O       &kp DE_P      &kp DE_HASH
+&kt CAPSLOCK    &kp DE_A   &kp DE_S   &kp DE_D   &kp DE_F      &kp DE_G                                  &kp DE_H       &kp DE_J   &kp DE_K      &kp DE_L       &kp SLASH     &kp BACKSLASH
+&kp LEFT_SHIFT  &kp DE_Y   &kp DE_X   &kp DE_C   &kp DE_V      &kp DE_B      &kp DE_CARET    &kp DELETE  &kp DE_N       &kp DE_M   &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS  &kp RIGHT_SHIFT
+                                      &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp DE_SPACE    &kp ENTER   &kp RIGHT_ALT  &none      &to 0
             >;
         };
     };
