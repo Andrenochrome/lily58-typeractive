@@ -9,6 +9,10 @@
 #include <dt-bindings/zmk/keys.h>
 #include "keys_de.h"
 
+&mt {
+    tapping-term-ms = <400>; // This is the value already set by default
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
