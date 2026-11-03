@@ -27,11 +27,11 @@
 
             label = "Base";
             bindings = <
-&mt LEFT_ALT ESCAPE  &mt DE_EXCLAMATION DE_N1  &mt DE_DOUBLE_QUOTES DE_N2  &mt DE_SECT DE_N3  &mt DE_DOLLAR DE_N4  &mt DE_PERCENT DE_N5                                            &mt DE_AMPERSAND DE_N6  &mt DE_SLASH DE_N7  &mt DE_LEFT_PARENTHESIS DE_N8  &mt DE_RIGHT_PARENTHESIS DE_N9  &mt DE_EQUAL DE_N0          &mt LEFT_META BACKSPACE
-&mt DE_TILDE TAB     &mt LS(DE_Q) DE_Q         &mt LS(DE_D) DE_D           &mt LS(DE_R) DE_R  &mt LS(DE_W) DE_W    &mt LS(DE_B) DE_B                                               &mt LS(DE_J) DE_J       &mt LS(DE_F) DE_F   &mt LS(DE_U) DE_U              &mt LS(DE_P) DE_P               &mt DE_QUESTION DE_SLASH    &mt DE_PIPE DE_BACKSLASH
-&kp CARET            &mt LS(DE_A) DE_A         &mt LS(DE_S) DE_S           &mt LS(DE_H) DE_H  &mt LS(DE_T) DE_T    &mt LS(DE_G) DE_G                                               &mt LS(DE_Y) DE_Y       &mt LS(DE_N) DE_N   &mt LS(DE_E) DE_E              &mt LS(DE_O) DE_O               &mt LS(DE_I) DE_I           &mt DE_HASH DE_EQUAL
-&kp LEFT_CONTROL     &mt LS(DE_Z) DE_Z         &mt LS(DE_X) DE_X           &mt LS(DE_M) DE_M  &mt LS(DE_C) DE_C    &mt LS(DE_V) DE_V     &kp DE_SINGLE_QUOTE    &mt INSERT DELETE  &mt LS(DE_K) DE_K       &mt LS(DE_L) DE_L   &mt DE_SEMICOLON DE_COMMA      &mt DE_COLON DE_PERIOD          &mt DE_UNDERSCORE DE_MINUS  &mt DE_ASTERISK DE_PLUS
-                                                                           &kp LALT           &kp LEFT_GUI         &trans                &kp DE_SPACE           &kp RET            &mo 1                   &kp RIGHT_ALT       &to 2
+&mt DE_CARET ESCAPE  &mt DE_EXCLAMATION DE_N1  &mt DE_DOUBLE_QUOTES DE_N2  &mt DE_SECT DE_N3  &mt DE_DOLLAR DE_N4  &mt DE_PERCENT DE_N5                                     &mt DE_AMPERSAND DE_N6  &mt DE_SLASH DE_N7  &mt DE_LEFT_PARENTHESIS DE_N8  &mt DE_RIGHT_PARENTHESIS DE_N9  &mt DE_EQUAL DE_N0            &kp BACKSPACE
+&mt DE_TILDE TAB     &mt LS(DE_Q) DE_Q         &mt LS(DE_D) DE_D           &mt LS(DE_R) DE_R  &mt LS(DE_W) DE_W    &mt LS(DE_B) DE_B                                        &mt LS(DE_J) DE_J       &mt LS(DE_F) DE_F   &mt LS(DE_U) DE_U              &mt LS(DE_P) DE_P               &mt DE_QUESTION DE_BACKSLASH  &mt DE_GREATER_THAN DE_LESS_THAN
+&kp CARET            &mt LS(DE_A) DE_A         &mt LS(DE_S) DE_S           &mt LS(DE_H) DE_H  &mt LS(DE_T) DE_T    &mt LS(DE_G) DE_G                                        &mt LS(DE_Y) DE_Y       &mt LS(DE_N) DE_N   &mt LS(DE_E) DE_E              &mt LS(DE_O) DE_O               &mt LS(DE_I) DE_I             &mt DE_SQT DE_EQUAL
+&kp LEFT_CONTROL     &mt LS(DE_Z) DE_Z         &mt LS(DE_X) DE_X           &mt LS(DE_M) DE_M  &mt LS(DE_C) DE_C    &mt LS(DE_V) DE_V     &kp DE_PIPE     &mt INSERT DELETE  &mt LS(DE_K) DE_K       &mt LS(DE_L) DE_L   &mt DE_SEMICOLON DE_COMMA      &mt DE_COLON DE_PERIOD          &mt DE_UNDERSCORE DE_MINUS    &mt DE_ASTERISK DE_PLUS
+                                                                           &kp LEFT_GUI       &kp LEFT_ALT         &trans                &kp DE_SPACE    &kp RET            &mo 1                   &kp RIGHT_ALT       &to 2
             >;
         };
 
